@@ -1,0 +1,22 @@
+{
+    "name": "My extension",
+    "version": "1.0",
+    "description": "My extension",
+    "manifest_version": 2,
+    "background": {
+        "persistent": false,
+        "scripts": ["background.js"]
+    },
+    "permissions": [
+        "activeTab",
+        "downloads",
+        "tabs",
+        "http://*/",
+        "https://*/"
+    ],
+    "commands": {
+        "myCommand": {
+            "description": "Invoke the extension on current tab."
+        }
+    }
+}
