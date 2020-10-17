@@ -41,5 +41,5 @@ interact with the pages you visit.
 - Pro tip: if you put your code in a separate file, then after your first edit
   to `background.js`, you don't need to reload the extension every time. The
   extension fetches the site-specific scripts from disk on every
-  invocation. Only when you edit `background.js` to you need to reload. (You're
+  invocation. Only when you edit `background.js` do you need to reload. (You're
   gonna forget to reload.)
